@@ -4,8 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="readme">
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/wechat/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ApprovalVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessFormVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/AssginMenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/AssginRoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/MetaVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/RouterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysLoginLogQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysOperLogQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysPostQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysRoleQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysUserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/wechat/BindPhoneVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/wechat/MenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ys-oa.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +83,9 @@
     <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
   </component>
   <component name="ProjectId" id="2PEhsAZmZ5WweY4h5syxP0mDueU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +100,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/java/ysoa-parent",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +114,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\ysoa-parent" />
+      <recent name="E:\java\ysoa-parent\model\src\main\java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ysoa-parent" />
@@ -104,7 +149,8 @@
       <workItem from="1683028360021" duration="10722000" />
       <workItem from="1683039510410" duration="252000" />
       <workItem from="1683039784996" duration="2710000" />
-      <workItem from="1683078249521" duration="485000" />
+      <workItem from="1683078249521" duration="1697000" />
+      <workItem from="1683079970745" duration="1871000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1683078428548</created>
@@ -113,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683078428548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readme">
+      <created>1683078746835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683078746835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
