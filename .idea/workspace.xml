@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="readme">
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/process/ProcessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysOperLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysRoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/system/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/wechat/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ApprovalVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessFormVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/process/ProcessVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/AssginMenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/AssginRoleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/MetaVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/RouterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysLoginLogQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysOperLogQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysPostQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysRoleQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/system/SysUserQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/wechat/BindPhoneVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/vo/wechat/MenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ys-oa.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/Main.java" beforeDir="false" />
+    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="无">
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.17480469",
     "project.structure.side.proportion": "0.34875447",
@@ -151,6 +116,7 @@
       <workItem from="1683039784996" duration="2710000" />
       <workItem from="1683078249521" duration="1697000" />
       <workItem from="1683079970745" duration="1871000" />
+      <workItem from="1683081858687" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1683078428548</created>
@@ -166,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683078746835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="无">
+      <created>1683081944804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683081944804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="无" />
+    <option name="LAST_COMMIT_MESSAGE" value="无" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
