@@ -23,7 +23,7 @@ public class BaseEntity implements Serializable {
     @TableField("update_time")
     private Date updateTime;
 
-    @TableLogic //逻辑删除
+    @TableLogic //逻辑删除 mybatis plus 自己封装的 0代表正常 1代表删除
     @TableField("is_deleted")
     private Integer isDeleted;
 

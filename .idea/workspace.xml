@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="无">
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/ys/oa/SysRoleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/ys/oa/SysRoleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/ys/oa/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -62,6 +83,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/java/ysoa-parent",
@@ -84,8 +106,77 @@
       <recent name="E:\java\ysoa-parent" />
       <recent name="E:\java\ysoa-parent\model\src\main\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ys.oa.service" />
+      <recent name="com.ys.oa.service.impl" />
+      <recent name="com.ys.oa.mapper" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="SysRoleMapperTest.getall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ys.oa" />
+      <option name="MAIN_CLASS_NAME" value="com.ys.oa.SysRoleMapperTest" />
+      <option name="METHOD_NAME" value="getall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleMapperTest.lambdaqueryWrapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ys.oa" />
+      <option name="MAIN_CLASS_NAME" value="com.ys.oa.SysRoleMapperTest" />
+      <option name="METHOD_NAME" value="lambdaqueryWrapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleMapperTest.queryWrapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ys.oa" />
+      <option name="MAIN_CLASS_NAME" value="com.ys.oa.SysRoleMapperTest" />
+      <option name="METHOD_NAME" value="queryWrapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysRoleServiceTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ys.oa" />
+      <option name="MAIN_CLASS_NAME" value="com.ys.oa.SysRoleServiceTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ysoa-parent" />
       <method v="2">
@@ -99,6 +190,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ys.oa.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SysRoleServiceTest.getAll" />
+        <item itemvalue="JUnit.SysRoleMapperTest.lambdaqueryWrapper" />
+        <item itemvalue="JUnit.SysRoleMapperTest.queryWrapper" />
+        <item itemvalue="JUnit.SysRoleMapperTest.getall" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -116,7 +222,7 @@
       <workItem from="1683039784996" duration="2710000" />
       <workItem from="1683078249521" duration="1697000" />
       <workItem from="1683079970745" duration="1871000" />
-      <workItem from="1683081858687" duration="225000" />
+      <workItem from="1683081858687" duration="10795000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1683078428548</created>
@@ -139,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683081944804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="无">
+      <created>1683082091196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683082091196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="无">
+      <created>1683082238762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683082238762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
