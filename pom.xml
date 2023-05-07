@@ -51,7 +51,7 @@
                 <version>${mysql.version}</version>
             </dependency>
 
-            <!--knife4j-->
+            <!--knife4j 集成了swagger 也是一款接口测试工具-->
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-spring-boot-starter</artifactId>

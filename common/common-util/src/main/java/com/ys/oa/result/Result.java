@@ -1,5 +1,6 @@
 package com.ys.oa.result;
 
+
 public class Result {
 
     private Integer code;
@@ -46,13 +47,24 @@ public class Result {
         return new Result(ResultCodeEnum.FAIL.getCode(),message,null);
     }
 
-    //set方法
+    public Integer getCode() {
+        return code;
+    }
+
     public void setCode(Integer code) {
         this.code = code;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public Object getData() {
+        return data;
     }
 
     public void setData(Object data) {

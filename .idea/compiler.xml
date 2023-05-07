@@ -23,7 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common" options="-parameters" />
+      <module name="common" options="" />
       <module name="common-util" options="" />
       <module name="model" options="-parameters" />
       <module name="service-oa" options="-parameters" />
