@@ -7,10 +7,10 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ys.oa.mapper.SysRoleMapper;
 import com.ys.oa.model.system.SysRole;
 import com.ys.oa.service.SysRoleService;
-import com.ys.oa.stringUtil.StringUtils;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
 
 @Service
 public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> implements SysRoleService {

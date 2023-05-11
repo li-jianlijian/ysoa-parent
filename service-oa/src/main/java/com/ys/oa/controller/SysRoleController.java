@@ -1,18 +1,13 @@
 package com.ys.oa.controller;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ys.oa.model.system.SysRole;
 import com.ys.oa.result.Result;
 import com.ys.oa.service.SysRoleService;
-import com.ys.oa.stringUtil.StringUtils;
-import com.ys.oa.vo.system.SysRoleQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.lang.NonNull;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
