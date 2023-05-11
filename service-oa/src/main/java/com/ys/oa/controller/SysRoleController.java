@@ -30,7 +30,6 @@ public class SysRoleController {
     @ApiOperation(value = "获取所有角色")
     @GetMapping("/findAll")
     public Result findAll(){
-        int a= 10/0;
         return Result.ok(sysRoleService.list());
     }
 
