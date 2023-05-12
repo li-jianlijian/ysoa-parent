@@ -4,24 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="无">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/ys/oa/stringUtil/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/ys/oa/config/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/ys/oa/config/knife4j/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/ys/oa/config/mp/MybatisPlusConfig.java" afterDir="false" />
+    <list default="true" id="dc08070a-312f-4daa-831d-6daa04fa5758" name="Changes" comment="自动生成代码">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/ys/oa/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/ys/oa/result/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/common-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/ys/oa/stringUtil/StringUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/service-util/service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/service-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/ys/oa/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/service-oa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/service-oa.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/ys/oa/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/java/ysoa-parent",
+    "last_opened_file_path": "E:/java/ysoa-parent/service-oa/src/main/java/com/ys/oa",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,6 +112,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\ysoa-parent\service-oa\src\main\java\com\ys\oa" />
       <recent name="E:\java\ysoa-parent" />
       <recent name="E:\java\ysoa-parent\model\src\main\java" />
     </key>
@@ -121,6 +123,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.oa.CodeGet" />
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SysRoleMapperTest.getall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-oa" />
       <extension name="coverage">
@@ -207,6 +222,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGet" />
         <item itemvalue="JUnit.SysRoleServiceTest.getAll" />
         <item itemvalue="JUnit.SysRoleMapperTest.lambdaqueryWrapper" />
         <item itemvalue="JUnit.SysRoleMapperTest.queryWrapper" />
@@ -231,7 +247,10 @@
       <workItem from="1683078249521" duration="1697000" />
       <workItem from="1683079970745" duration="1871000" />
       <workItem from="1683081858687" duration="14782000" />
-      <workItem from="1683257430374" duration="21317000" />
+      <workItem from="1683257430374" duration="21951000" />
+      <workItem from="1683709361197" duration="7326000" />
+      <workItem from="1683801288569" duration="4340000" />
+      <workItem from="1683806533956" duration="7551000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1683078428548</created>
@@ -289,7 +308,49 @@
       <option name="project" value="LOCAL" />
       <updated>1683349867317</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="无">
+      <created>1683469233524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683469233524</updated>
+    </task>
+    <task id="LOCAL-00010" summary="角色模块">
+      <created>1683805667292</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683805667292</updated>
+    </task>
+    <task id="LOCAL-00011" summary="登录模块-模拟">
+      <created>1683805689554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683805689554</updated>
+    </task>
+    <task id="LOCAL-00012" summary="自动生成代码">
+      <created>1683813333331</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683813333331</updated>
+    </task>
+    <task id="LOCAL-00013" summary="角色模块">
+      <created>1683813367260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683813367260</updated>
+    </task>
+    <task id="LOCAL-00014" summary="自动生成代码">
+      <created>1683876311555</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683876311555</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +372,10 @@
     <MESSAGE value="readme" />
     <MESSAGE value="统一返回结果" />
     <MESSAGE value="无" />
-    <option name="LAST_COMMIT_MESSAGE" value="无" />
+    <MESSAGE value="登录模块-模拟" />
+    <MESSAGE value="角色模块" />
+    <MESSAGE value="自动生成代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动生成代码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
