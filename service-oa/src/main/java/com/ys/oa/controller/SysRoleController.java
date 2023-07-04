@@ -8,6 +8,7 @@ import com.ys.oa.service.SysRoleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,19 +16,13 @@ import java.util.List;
 @RestController
 @Api(tags = "角色模块")
 @RequestMapping("/admin/system/sysRole")
+@CrossOrigin  //跨域
 public class SysRoleController {
 
     @Autowired
     private SysRoleService sysRoleService;
 
-
-    //@ApiImplicitParam(name = "name",value = "姓名",required = true)
-    @ApiOperation(value = "获取所有角色")
-    @GetMapping("/findAll")
-    public Result findAll(){
-        return Result.ok(sysRoleService.list());
-    }
-
+    @PreAuthorize("hasAuthority('bnt.sysRole.list')")
     @ApiOperation(value = "条件分页查询")
     @GetMapping("/{page}/{limit}")
     public Result pageQueryRole(@PathVariable("page") Long page,
@@ -42,6 +37,7 @@ public class SysRoleController {
         return Result.ok(pageResult);
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.add')")
     @ApiOperation(value = "添加角色")
     @PostMapping("/save")
     // RequestBody 通过json格式传输
@@ -55,6 +51,7 @@ public class SysRoleController {
         return Result.fail("角色添加失败");
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.list')")
     @ApiOperation(value = "获取角色通过id")
     @GetMapping("/get/{id}")
     public Result get(@PathVariable Long id){
@@ -62,6 +59,7 @@ public class SysRoleController {
         return Result.ok(sysRole);
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.update')")
     @ApiOperation(value = "修改角色")
     @PutMapping("/update")
     // RequestBody 通过json格式传输
@@ -75,6 +73,7 @@ public class SysRoleController {
         return Result.fail("角色修改失败");
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @ApiOperation(value = "删除角色根据ID")
     @DeleteMapping("/remove/{id}")
     public Result remove(@PathVariable Long id){
@@ -87,6 +86,7 @@ public class SysRoleController {
         return Result.fail("角色删除失败");
     }
 
+    @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @ApiOperation(value = "批量删除角色根据ID")
     @DeleteMapping("/batchRemove")
     // RequestBody 通过json格式传输

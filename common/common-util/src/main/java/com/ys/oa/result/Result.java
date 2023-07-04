@@ -47,6 +47,14 @@ public class Result {
         return new Result(ResultCodeEnum.FAIL.getCode(),message,null);
     }
 
+    public static Result fail(ResultCodeEnum resultCodeEnum){
+        return new Result(resultCodeEnum.getCode(),resultCodeEnum.getMessage(),null);
+    }
+
+    public static Result fail(ResultCodeEnum resultCodeEnum,String message){
+        return new Result(resultCodeEnum.getCode(),message,null);
+    }
+
     public Integer getCode() {
         return code;
     }

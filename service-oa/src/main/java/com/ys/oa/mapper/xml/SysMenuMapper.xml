@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ys.oa.mapper.SysMenuMapper">
+
+    <select id="findRouterListByUserId" resultType="com.ys.oa.model.system.SysMenu">
+        SELECT DISTINCT sys_menu.* FROM sys_menu
+        INNER JOIN sys_role_menu on sys_menu.id = sys_role_menu.menu_id
+        INNER JOIN sys_user_role on sys_user_role.role_id = sys_role_menu.role_id
+        where sys_user_role.user_id = #{userId}
+          and sys_menu.path is not null
+          and sys_menu.path != ""
+          and sys_menu.status = 1
+          and sys_menu.is_deleted = 0
+          and sys_role_menu.is_deleted = 0
+          and sys_user_role.is_deleted = 0
+    </select>
+
+    <select id="findPermsListByUserId" resultType="com.ys.oa.model.system.SysMenu">
+        SELECT DISTINCT sys_menu.* FROM sys_menu
+        INNER JOIN sys_role_menu on sys_menu.id = sys_role_menu.menu_id
+        INNER JOIN sys_user_role on sys_user_role.role_id = sys_role_menu.role_id
+        where sys_user_role.user_id = #{userId}
+
+          and sys_menu.perms is not null
+          and sys_menu.perms != ""
+          and sys_menu.status = 1
+          and sys_menu.is_deleted = 0
+          and sys_role_menu.is_deleted = 0
+          and sys_user_role.is_deleted = 0
+    </select>
+
+
+</mapper>

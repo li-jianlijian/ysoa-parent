@@ -20,11 +20,14 @@
         <module>common</module>
         <module>model</module>
         <module>service-oa</module>
+        <module>common/spring-security</module>
     </modules>
 
 
     <!-- 指定版本 -->
     <properties>
+
+        <activiti.version>7.1.0.M6</activiti.version>
         <!-- 经典jdk8 -->
         <java.version>1.8</java.version>
         <mybatis-plus.version>3.4.2</mybatis-plus.version>
@@ -41,7 +44,12 @@
     <dependencyManagement>
         <dependencies>
 
-
+            <!--引入activiti的springboot启动器 -->
+            <dependency>
+                <groupId>org.activiti</groupId>
+                <artifactId>activiti-spring-boot-starter</artifactId>
+                <version>${activiti.version}</version>
+            </dependency>
             <!--mybatis-plus 持久层-->
             <dependency>
                 <groupId>com.baomidou</groupId>
